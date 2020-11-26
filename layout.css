@@ -1,0 +1,27 @@
+
+p{
+    font-size: 4vw;
+    text-align: center;
+}
+
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.input1{
+  display: inline-grid;
+  margin: 5px;
+}
+
+.dropdown{
+  display: inline-grid;
+  margin: 5px;
+}
+
+.input2{
+  display: inline-grid;
+  margin: 5px;
+}

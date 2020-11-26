@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="layout.css">
+    </head>
+    <body>
+        <p>Calculator</p>
+        <div class="parent">
+            <div class="input1">
+                <input id="userInput1" type="text" value="0">
+                <br>
+            </div>
+            <div class="dropdown">
+                <select id="operator" name="operator">
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                </select>
+            </div>
+            <div class="input2">
+                <input id="userInput2" type="text" value="0">
+                <br>
+            </div>
+        </div>
+        <div class="parent">
+            <input id="submitButton" type="submit" value="Calculate" onclick="calculate()">
+        </div>
+        <div class="parent">
+            <label for="output">The answer is: </label>
+            <input id="output" type="textbox">
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
